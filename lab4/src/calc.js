@@ -34,7 +34,7 @@ export function calcOPZ(inputString, xValue) {
           result = b - a;
           break;
         case '^':
-          result = b ^ a;
+          result = Math.pow(b, a);
           break;
         case 'tan':
           result = Math.tan(a);
